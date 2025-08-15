@@ -1,5 +1,4 @@
-import { assets } from "../assets/assets";
-
+import { assets } from "../assets/assets.js";
 function Footer() {
   return (
     <div>
