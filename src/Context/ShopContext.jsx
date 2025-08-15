@@ -112,7 +112,7 @@ const ShopContextProvider = (props) => {
     try {
       const res = await api.get(`/api/product`);
       if (res.data.success) {
-        const products = await res.data;
+        const products = res.data;
         setProducts(products.data);
       } else {
         toast.error(res.data.message);
