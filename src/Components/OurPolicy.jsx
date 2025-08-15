@@ -1,4 +1,4 @@
-import { assets } from "../assets/assets";
+import { assets } from "../assets/assets.js";
 function OurPolicy() {
   return (
     <div className="flex flex-col sm:flex-row justify-around gap-12 sm:gap-2 text-center py-20  text-xs sm:text-sm md:text-base text-gray-700">

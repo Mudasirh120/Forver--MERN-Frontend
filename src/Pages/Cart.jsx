@@ -1,7 +1,7 @@
 import { useEffect, useContext, useState } from "react";
 import { ShopContext } from "../Context/ShopContext";
 import Title from "../Components/Title";
-import { assets } from "../assets/assets";
+import { assets } from "../assets/assets.js";
 import CartTotal from "../Components/CartTotal";
 import { toast } from "react-toastify";
 function Cart() {
